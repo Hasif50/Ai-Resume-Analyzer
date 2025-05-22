@@ -1,4 +1,4 @@
-# Smart Resume Analyzer
+# Ai Resume Analyzer
 
 A powerful tool to screen resumes and match candidates to job descriptions efficiently.
 
