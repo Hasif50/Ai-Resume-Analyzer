@@ -1,0 +1,57 @@
+John Doe
+Software Developer
+
+SUMMARY
+Experienced software developer with 5+ years of experience in Python, JavaScript, and web development. Skilled in building scalable web applications, RESTful APIs, and database design. Strong problem-solving abilities and a passion for clean, maintainable code.
+
+SKILLS
+Programming Languages: Python, JavaScript, TypeScript, HTML, CSS
+Frameworks & Libraries: Django, Flask, React, Node.js, Express.js
+Databases: PostgreSQL, MongoDB, MySQL
+Tools & Technologies: Git, Docker, AWS, CI/CD, Agile methodologies
+Soft Skills: Communication, teamwork, problem-solving, time management
+
+EXPERIENCE
+Senior Software Developer
+ABC Tech Solutions | Jan 2020 - Present
+- Developed and maintained multiple web applications using Python, Django, and React
+- Designed and implemented RESTful APIs for mobile and web clients
+- Optimized database queries and application performance, reducing load times by 40%
+- Collaborated with cross-functional teams to deliver features on time and within scope
+- Mentored junior developers and conducted code reviews
+
+Software Developer
+XYZ Software Inc. | Mar 2018 - Dec 2019
+- Built responsive web applications using JavaScript, React, and Node.js
+- Implemented authentication and authorization systems using JWT
+- Created and maintained documentation for APIs and codebase
+- Participated in Agile development processes, including daily stand-ups and sprint planning
+
+Junior Developer
+Tech Startup | Jun 2016 - Feb 2018
+- Assisted in developing web applications using Python and Flask
+- Created and maintained database schemas and migrations
+- Fixed bugs and implemented minor features
+- Wrote unit tests to ensure code quality
+
+EDUCATION
+Bachelor of Science in Computer Science
+University of Technology | 2012 - 2016
+- GPA: 3.8/4.0
+- Relevant coursework: Data Structures, Algorithms, Database Systems, Web Development
+
+PROJECTS
+E-commerce Platform
+- Built a full-stack e-commerce platform using Django, React, and PostgreSQL
+- Implemented features like product search, cart management, and payment processing
+- Deployed the application on AWS using Docker containers
+
+Task Management System
+- Developed a task management application with Flask and Vue.js
+- Implemented real-time updates using WebSockets
+- Created a RESTful API for mobile client integration
+
+CERTIFICATIONS
+- AWS Certified Developer - Associate
+- MongoDB Certified Developer
+- Certified Scrum Master

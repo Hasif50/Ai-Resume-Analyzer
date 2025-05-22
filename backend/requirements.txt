@@ -1,0 +1,26 @@
+# FastAPI and Uvicorn
+fastapi>=0.115.0,<0.116.0
+uvicorn[standard]>=0.34.0,<0.35.0
+
+# NLP Core Libraries
+spacy>=3.8.0,<3.9.0
+nltk>=3.9.0,<3.10.0
+scikit-learn>=1.6.0,<1.7.0
+
+# For sentence-transformers, specify torch for CPU explicitly if possible
+# It's often better to install torch first using its specific index for CPU.
+# However, in requirements.txt, we list it directly.
+# The Dockerfile will handle specific torch installation if needed.
+torch>=2.7.0,<2.8.0
+sentence-transformers>=4.1.0,<4.2.0
+
+# Resume/JD Parsers
+PyPDF2>=3.0.0,<3.1.0
+python-docx>=1.1.0,<1.2.0
+
+# For Logging (though part of stdlib, uuid is used)
+# No specific package for uuid, it's standard.
+
+# Pydantic is a dependency of FastAPI, usually gets installed with it.
+# Explicitly listing can be good for version control if specific features are used.
+pydantic>=2.0.0,<3.0.0

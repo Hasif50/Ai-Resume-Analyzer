@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    # volumes:
+      # For development, you might want to mount your code for live reload
+      # Make sure your Dockerfile CMD for uvicorn also uses --reload then.
+      # - ./backend:/app
+    environment:
+      # Ensures Python output is sent straight to terminal without being buffered first
+      PYTHONUNBUFFERED: 1
+      # Add any other backend-specific environment variables here
+      # Example: LOG_LEVEL: INFO
+    container_name: resume_analyzer_backend
+    # restart: unless-stopped  # Optional: for production-like behavior
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "8501:8501"
+    depends_on:
+      - backend  # Ensures backend starts before frontend (for service availability)
+    # volumes:
+      # For development, mount frontend code for live reload
+      # - ./frontend:/app
+    environment:
+      # Streamlit server specific environment variables
+      STREAMLIT_SERVER_PORT: 8501  # Streamlit will run on this port inside the container
+      # The frontend needs to know where the backend API is.
+      # 'backend' is the service name defined above, accessible via Docker's internal networking.
+      BACKEND_API_URL: "http://backend:8000"
+    container_name: resume_analyzer_frontend
+    # restart: unless-stopped  # Optional
+
+# Example of a shared named volume if you had very large NLP models
+# that you wanted to persist or share, downloaded by an init container perhaps.
+# volumes:
+#   nlp_models_cache:

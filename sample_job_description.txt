@@ -1,0 +1,56 @@
+Senior Python Developer
+
+Company: Tech Innovations Inc.
+Location: Remote (US-based)
+Employment Type: Full-time
+
+About Us:
+Tech Innovations Inc. is a leading software development company specializing in building scalable web applications and enterprise solutions. We are looking for a talented Senior Python Developer to join our growing team.
+
+Job Description:
+We are seeking an experienced Senior Python Developer to design, develop, and maintain high-performance web applications. The ideal candidate will have strong expertise in Python, Django, and RESTful API development, with a passion for writing clean, maintainable code.
+
+Responsibilities:
+- Design, develop, and maintain Python-based applications and services
+- Build efficient, testable, and reusable code
+- Develop RESTful APIs for web and mobile applications
+- Optimize application performance and database queries
+- Collaborate with front-end developers to integrate user-facing elements
+- Implement security and data protection measures
+- Participate in code reviews and mentor junior developers
+- Troubleshoot and debug applications
+- Stay up-to-date with emerging technologies and industry trends
+
+Requirements:
+- 4+ years of professional experience in Python development
+- Strong proficiency in Python, Django, and Flask
+- Experience with RESTful API design and implementation
+- Solid understanding of database systems (PostgreSQL, MySQL, MongoDB)
+- Knowledge of front-end technologies (JavaScript, HTML, CSS)
+- Experience with version control systems (Git)
+- Familiarity with containerization tools like Docker
+- Experience with cloud platforms (AWS, Azure, or GCP)
+- Strong problem-solving skills and attention to detail
+- Excellent communication and teamwork abilities
+- Bachelor's degree in Computer Science or related field (or equivalent experience)
+
+Nice to Have:
+- Experience with React or other modern JavaScript frameworks
+- Knowledge of CI/CD pipelines and DevOps practices
+- Experience with microservices architecture
+- Contributions to open-source projects
+- Agile development experience
+
+Benefits:
+- Competitive salary and performance bonuses
+- Health, dental, and vision insurance
+- 401(k) matching
+- Flexible work schedule
+- Professional development opportunities
+- Paid time off and holidays
+- Remote work options
+
+Tech Innovations Inc. is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees.
+
+To Apply:
+Please submit your resume, cover letter, and links to relevant projects or GitHub profile.
